@@ -1,0 +1,144 @@
+.main-aboutme-picture{
+    -webkit-box-shadow: 36px -23px 11px 105px rgba(0,0,0,0.41);
+    -moz-box-shadow: 36px -23px 11px 105px rgba(0,0,0,0.41);
+    box-shadow: 36px -23px 11px 105px rgba(0,0,0,0.41);
+    background-color: rgb(39,34,30);
+}
+
+
+.about-section{
+    background-color: lightgray;
+}
+
+.main-about-me{
+    background-color: white;}
+
+    .progress{
+        background-color:rgb(231, 216, 9) !important;
+        justify-content:flex-start;
+        border-radius:50px;
+        align-items: center;
+        position: relative;
+        display: flex;
+        height: 25px;
+        width: 100%;
+
+        .about_us_btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 2rem;
+            background-color: blue;
+        }
+    
+        .pro-value-1{
+            animation: load1 3s normal forwards;
+            border-radius: 50px;
+            height: 25px;
+            background-color:rgb(3, 3, 3);
+            width:0;
+
+            p{
+                color: rgb(253, 251, 251);
+                padding-left:10px;
+                padding-top:5px;
+                           
+            }
+
+            .float-right{
+                float: right;
+            }
+        }
+
+        // BOOTSTRAP
+
+        
+        .pro-value-2{
+            animation: load2 3s normal forwards;
+            border-radius: 50px;
+            height: 25px;
+            background-color:rgb(3, 3, 3);
+            width:0;
+
+            p{
+                color: rgb(253, 251, 251);
+                padding-left:10px;
+                padding-top:5px;
+                           
+            }
+
+            .float-right{
+                float: right;
+            }
+        }
+
+
+        // javascritp
+
+        .pro-value-3{
+            animation: load3 3s normal forwards;
+            border-radius: 50px;
+            height: 25px;
+            background-color:rgb(3, 3, 3);
+            width:0;
+
+            p{
+                color: rgb(253, 251, 251);
+                padding-left:10px;
+                padding-top:5px;
+                           
+            }
+
+            .float-right{
+                float: right;
+            }
+        }
+
+        
+    
+    }
+
+
+
+@keyframes load1{
+
+    0%{
+         width: 0;
+    }
+
+    100%{
+        width:98%;
+    }
+
+   
+}
+
+
+
+@keyframes load2{
+
+    0%{
+         width: 0;
+    }
+
+    100%{
+        width:70%;
+    }
+
+   
+}
+@keyframes load3{
+
+    0%{
+         width: 0;
+    }
+
+    100%{
+        width:50%;
+    }
+
+   
+}
+
+
+

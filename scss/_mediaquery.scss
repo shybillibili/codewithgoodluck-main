@@ -1,0 +1,234 @@
+
+
+@media only screen and (max-width: 425px) {
+  
+.main{
+      height: auto;
+      margin-right: 100rem;
+
+      .flex{
+          display: inline;
+          align-items: center;
+          padding-left: 100px;
+              
+
+          .col2{
+              padding-left: 100px;
+              z-index: 300;
+              h6{
+                  font-size: 1.2rem;
+                  font-weight: 700;
+                  
+
+              }
+              
+          }
+
+      }
+
+.col1{
+  h3{
+      font-size: 2.2rem;
+      font-weight: 700;
+  }
+}
+
+}
+
+
+
+
+
+
+// BUTTONS
+
+
+.btn1{
+  height:50px;
+  width: 110px;
+
+}
+
+.btn2{
+  display:none;
+  height:20px;
+  width: 100px
+
+}
+
+
+
+
+
+// about me 
+
+.main-aboutme-picture{
+  -webkit-box-shadow: 36px -23px 11px 105px rgba(0,0,0,0.41);
+  -moz-box-shadow: 36px -23px 11px 105px rgba(0,0,0,0.41);
+  box-shadow: 36px -23px 11px 105px rgba(0,0,0,0.41);
+  background-color: rgb(39,34,30);
+}
+
+
+.about-section{
+  background-color: lightgray;
+ 
+}
+
+.main-about-me{
+  background-color: white;}
+
+  .progress{
+      background-color:rgb(231, 216, 9) !important;
+      justify-content:flex-start;
+      border-radius:50px;
+      align-items: center;
+      position: relative;
+      display: flex;
+      height: 25px;
+      width: 100%;
+
+      .about_us_btn{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 2rem;
+          background-color: rgb(255, 0, 0);
+
+          .btn1{
+            height:50px;
+            width: 110px;
+            margin-left: 200px;
+          
+          }
+      }
+  
+      .pro-value-1{
+          animation: load1 3s normal forwards;
+          border-radius: 50px;
+          height: 25px;
+          background-color:rgb(3, 3, 3);
+          width:0;
+
+          p{
+              color: rgb(253, 251, 251);
+              padding-left:10px;
+              padding-top:5px;
+                         
+          }
+
+          .float-right{
+              float: right;
+          }
+      }
+
+      // BOOTSTRAP
+
+      
+      .pro-value-2{
+          animation: load2 3s normal forwards;
+          border-radius: 50px;
+          height: 25px;
+          background-color:rgb(3, 3, 3);
+          width:0;
+
+          p{
+              color: rgb(253, 251, 251);
+              padding-left:10px;
+              padding-top:5px;
+                         
+          }
+
+          .float-right{
+              float: right;
+          }
+      }
+
+
+      // BUTTON
+
+     
+
+
+      // javascritp
+
+      .pro-value-3{
+          animation: load3 3s normal forwards;
+          border-radius: 50px;
+          height: 25px;
+          background-color:rgb(3, 3, 3);
+          width:0;
+
+          p{
+              color: rgb(253, 251, 251);
+              padding-left:10px;
+              padding-top:5px;
+                         
+          }
+
+          .float-right{
+              float: right;
+          }
+      }
+
+      
+  
+  }
+
+
+
+@keyframes load1{
+
+  0%{
+       width: 0;
+  }
+
+  100%{
+      width:98%;
+  }
+
+ 
+}
+
+
+
+@keyframes load2{
+
+  0%{
+       width: 0;
+  }
+
+  100%{
+      width:70%;
+  }
+
+ 
+}
+@keyframes load3{
+
+  0%{
+       width: 0;
+  }
+
+  100%{
+      width:50%;
+  }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+ 
+
+  
+}
+
+
+
